@@ -1,0 +1,1 @@
+[![Maintainability](https://api.codeclimate.com/v1/badges/e89da8bdb892dbd39e6c/maintainability)](https://codeclimate.com/github/greta-code-pizza/magic/maintainability)
