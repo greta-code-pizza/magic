@@ -9,6 +9,11 @@
 
   <h1>Hello,</h1>
   <h2 id="hero"></h2>
+  <h2 id="hero"></h2>
+  <h2 id="hero"></h2>
+  <h2 id="hero"></h2>
+  <h2 id="hero"></h2>
+  <h2 id="hero"></h2>
 
   <script type="text/javascript">
     let hero = document.getElementById('hero');
