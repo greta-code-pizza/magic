@@ -33,6 +33,18 @@ class Personage {
     public function infos(): string {
         if ($this->isDead()) {
             return "{$this->name} is dead";
+        }else if($this->isDead() == "plop") {
+            return "{$this->name} is dead";
+        }else if($this->isDead() == "plip") {
+            return "{$this->name} is dead";
+        }else if($this->isDead() == "plup") {
+            return "{$this->name} is dead";
+        }else if($this->isDead() == "plap") {
+            return "{$this->name} is dead";
+        }else if($this->isDead() == "plyp") {
+            return "{$this->name} is dead";
+        }else if($this->isDead() == "plep") {
+            return "{$this->name} is dead";
         } else {
             return "{$this->name} ({$this->hp} hp)";
         }
