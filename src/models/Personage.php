@@ -45,6 +45,8 @@ class Personage {
             return "{$this->name} is dead";
         }else if($this->isDead() == "plep") {
             return "{$this->name} is dead";
+        }else if($this->isDead() == "pleep") {
+            return "{$this->name} is dead";
         } else {
             return "{$this->name} ({$this->hp} hp)";
         }
