@@ -38,6 +38,14 @@ class Personage {
         }
     }
 
+    public function infosPlus(): string {
+        if ($this->isDead()) {
+            return "{$this->name} is dead";
+        } else {
+            return "{$this->name} ({$this->hp} hp restant)";
+        }
+    }
+
     public function isDead() {
         return $this->hp <= 0;
     }
